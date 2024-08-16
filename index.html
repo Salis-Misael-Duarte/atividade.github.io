@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="servicos">Serviços:</label>
+            <select id="servicos" name="servicos" required>
+                <option value="desenvolvimento">--Escolha--</option>
+                <option value="desenvolvimento">Desenvolvimento de Sites</option>
+                <option value="newsletters">Criação de Newsletters</option>
+                <option value="seo">Otimização de SEO</option>
+                <option value="design">Design Gráfico</option>
+            </select>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="button-container">
+            <a href="#sobre-nos">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </div>
+</body>
+</html>
